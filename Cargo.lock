@@ -9,4 +9,5 @@ version = "0.1.0"
 [[package]]
 name = "rust_exchange"
 version = "0.1.0"
-depend
+dependencies = [
+ "
