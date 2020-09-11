@@ -10,4 +10,4 @@ version = "0.1.0"
 name = "rust_exchange"
 version = "0.1.0"
 dependencies = [
- "com_dev_4fx_so
+ "com_dev_4fx_sor_codecs_sbe",
