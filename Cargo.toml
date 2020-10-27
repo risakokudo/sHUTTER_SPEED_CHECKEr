@@ -1,4 +1,5 @@
 [package]
 name = "rust_exchange"
 version = "0.1.0"
-edit
+edition = "2021"
+
