@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 
-[dependencies.com_dev_4fx_sor_co
+[dependencies.com_dev_4fx_sor_codecs_sbe]
+path = "/
