@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [dependencies.com_dev_4fx_sor_codecs_sbe]
-path = "/Users/anton/I
+path = "/Users/anton/IdeaProjects/so
