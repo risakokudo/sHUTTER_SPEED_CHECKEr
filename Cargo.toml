@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 [dependencies.com_dev_4fx_sor_codecs_sbe]
-path = "/Users/anton/IdeaProjects/sor/codecs/build/generated-rust-src/com
+path = "/Users/anton/IdeaProjects/sor/codecs/build/generated-rust-src/com_dev4fx_sor_
