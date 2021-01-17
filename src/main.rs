@@ -1,1 +1,1 @@
-use com_dev_4fx_sor_c
+use com_dev_4fx_sor_codecs_sbe
