@@ -5,4 +5,4 @@ use com_dev_4fx_sor_codecs_sbe::{
     WriteBuf,
 };
 
-#[derive(
+#[derive(Debug, Default, Part
