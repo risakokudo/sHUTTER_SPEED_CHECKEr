@@ -8,3 +8,4 @@ use com_dev_4fx_sor_codecs_sbe::{
 #[derive(Debug, Default, PartialEq)]
 enum OrderSide {
     BUY,
+    SELL
