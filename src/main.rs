@@ -10,3 +10,4 @@ enum OrderSide {
     BUY,
     SELL,
     #[default]
+    Nul
