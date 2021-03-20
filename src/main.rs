@@ -10,4 +10,7 @@ enum OrderSide {
     BUY,
     SELL,
     #[default]
-    Nul
+    NullVal,
+}
+
+impl Fro
