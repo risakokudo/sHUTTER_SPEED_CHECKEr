@@ -13,4 +13,4 @@ enum OrderSide {
     NullVal,
 }
 
-impl Fro
+impl From<&SbeOrderSide>
