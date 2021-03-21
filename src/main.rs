@@ -13,4 +13,5 @@ enum OrderSide {
     NullVal,
 }
 
-impl From<&SbeOrderSide> for OrderSide 
+impl From<&SbeOrderSide> for OrderSide {
+    #[in
