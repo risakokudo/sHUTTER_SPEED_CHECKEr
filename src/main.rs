@@ -15,4 +15,4 @@ enum OrderSide {
 
 impl From<&SbeOrderSide> for OrderSide {
     #[inline]
-    fn from(v: &SbeOrder
+    fn from(v: &SbeOrderSide) -> Sel
