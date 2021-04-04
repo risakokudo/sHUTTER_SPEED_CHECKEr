@@ -17,4 +17,5 @@ impl From<&SbeOrderSide> for OrderSide {
     #[inline]
     fn from(v: &SbeOrderSide) -> Self {
         match v {
-            SbeOrderSide::BUY => Self::BU
+            SbeOrderSide::BUY => Self::BUY,
+         
