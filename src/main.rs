@@ -16,4 +16,5 @@ enum OrderSide {
 impl From<&SbeOrderSide> for OrderSide {
     #[inline]
     fn from(v: &SbeOrderSide) -> Self {
-        match
+        match v {
+        
