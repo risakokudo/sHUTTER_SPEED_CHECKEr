@@ -19,4 +19,4 @@ impl From<&SbeOrderSide> for OrderSide {
         match v {
             SbeOrderSide::BUY => Self::BUY,
             SbeOrderSide::SELL => Self::SELL,
-            SbeOrderSide::NullVal =
+            SbeOrderSide::NullVal => Self::NullVal,
