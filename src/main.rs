@@ -20,3 +20,5 @@ impl From<&SbeOrderSide> for OrderSide {
             SbeOrderSide::BUY => Self::BUY,
             SbeOrderSide::SELL => Self::SELL,
             SbeOrderSide::NullVal => Self::NullVal,
+        }
+    }
