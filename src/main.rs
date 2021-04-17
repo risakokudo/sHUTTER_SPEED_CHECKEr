@@ -22,3 +22,6 @@ impl From<&SbeOrderSide> for OrderSide {
             SbeOrderSide::NullVal => Self::NullVal,
         }
     }
+}
+
+impl Fr
