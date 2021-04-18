@@ -25,4 +25,5 @@ impl From<&SbeOrderSide> for OrderSide {
 }
 
 impl From<&OrderSide> for SbeOrderSide {
-    #[
+    #[inline]
+    fn fr
