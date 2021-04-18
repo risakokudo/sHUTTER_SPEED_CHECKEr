@@ -24,4 +24,4 @@ impl From<&SbeOrderSide> for OrderSide {
     }
 }
 
-impl From<&OrderSide> for S
+impl From<&OrderSide> for SbeOrderSi
