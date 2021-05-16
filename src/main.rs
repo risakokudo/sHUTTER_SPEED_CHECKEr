@@ -35,4 +35,4 @@ impl From<&OrderSide> for SbeOrderSide {
     }
 }
 
-#[derive(
+#[derive(Debug, Defa
