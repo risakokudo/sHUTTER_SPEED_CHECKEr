@@ -35,4 +35,5 @@ impl From<&OrderSide> for SbeOrderSide {
     }
 }
 
-#[derive(Debug, Default, PartialE
+#[derive(Debug, Default, PartialEq)]
+enum OrderTy
