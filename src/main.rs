@@ -36,4 +36,5 @@ impl From<&OrderSide> for SbeOrderSide {
 }
 
 #[derive(Debug, Default, PartialEq)]
-enum OrderTy
+enum OrderType {
+    MARKE
