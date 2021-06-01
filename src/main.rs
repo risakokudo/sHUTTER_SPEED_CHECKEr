@@ -37,4 +37,5 @@ impl From<&OrderSide> for SbeOrderSide {
 
 #[derive(Debug, Default, PartialEq)]
 enum OrderType {
-    MARKE
+    MARKET,
+    LIMIT,
