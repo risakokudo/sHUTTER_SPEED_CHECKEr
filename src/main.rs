@@ -39,4 +39,5 @@ impl From<&OrderSide> for SbeOrderSide {
 enum OrderType {
     MARKET,
     LIMIT,
-    #[default
+    #[default]
+    NullVal,
