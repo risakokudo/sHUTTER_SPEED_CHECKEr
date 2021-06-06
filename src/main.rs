@@ -43,4 +43,5 @@ enum OrderType {
     NullVal,
 }
 
-impl From<&SbeOrderType> for Or
+impl From<&SbeOrderType> for OrderType {
+    
