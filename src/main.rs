@@ -41,3 +41,6 @@ enum OrderType {
     LIMIT,
     #[default]
     NullVal,
+}
+
+impl Fro
