@@ -44,4 +44,5 @@ enum OrderType {
 }
 
 impl From<&SbeOrderType> for OrderType {
-    
+    #[inline]
+    fn 
