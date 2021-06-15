@@ -45,4 +45,5 @@ enum OrderType {
 
 impl From<&SbeOrderType> for OrderType {
     #[inline]
-    fn from(v: &SbeOrderType) -> 
+    fn from(v: &SbeOrderType) -> Self {
+     
