@@ -47,4 +47,5 @@ impl From<&SbeOrderType> for OrderType {
     #[inline]
     fn from(v: &SbeOrderType) -> Self {
         match v {
-            SbeOrderType::MARKET => Se
+            SbeOrderType::MARKET => Self::MARKET,
+      
