@@ -51,4 +51,7 @@ impl From<&SbeOrderType> for OrderType {
             SbeOrderType::LIMIT => Self::LIMIT,
             SbeOrderType::NullVal => Self::NullVal,
         }
-   
+    }
+}
+
+impl From<&Ord
