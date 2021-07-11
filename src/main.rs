@@ -54,4 +54,4 @@ impl From<&SbeOrderType> for OrderType {
     }
 }
 
-impl From<&OrderType> f
+impl From<&OrderType> for Sbe
