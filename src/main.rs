@@ -56,4 +56,4 @@ impl From<&SbeOrderType> for OrderType {
 
 impl From<&OrderType> for SbeOrderType {
     #[inline]
-    fn from(v: &Orde
+    fn from(v: &OrderType) -> Self {
