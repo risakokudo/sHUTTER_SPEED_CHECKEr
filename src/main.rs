@@ -58,4 +58,4 @@ impl From<&OrderType> for SbeOrderType {
     #[inline]
     fn from(v: &OrderType) -> Self {
         match v {
-       
+            OrderTy
