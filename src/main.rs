@@ -60,4 +60,4 @@ impl From<&OrderType> for SbeOrderType {
         match v {
             OrderType::MARKET => Self::MARKET,
             OrderType::LIMIT => Self::LIMIT,
-            OrderType
+            OrderType::NullVal => S
