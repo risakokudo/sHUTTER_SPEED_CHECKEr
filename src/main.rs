@@ -66,4 +66,5 @@ impl From<&OrderType> for SbeOrderType {
 }
 
 #[derive(Debug, Default, PartialEq)]
-enum TimeIn
+enum TimeInForce {
+    D
