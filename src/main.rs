@@ -67,4 +67,5 @@ impl From<&OrderType> for SbeOrderType {
 
 #[derive(Debug, Default, PartialEq)]
 enum TimeInForce {
-    D
+    DAY,
+    GT
