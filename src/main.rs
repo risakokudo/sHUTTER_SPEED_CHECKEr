@@ -72,4 +72,5 @@ enum TimeInForce {
     IOC,
     FOK,
     GTD,
- 
+    #[default]
+    Null
