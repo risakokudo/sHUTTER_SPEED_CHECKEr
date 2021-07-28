@@ -70,4 +70,6 @@ enum TimeInForce {
     DAY,
     GTC,
     IOC,
-    F
+    FOK,
+    GTD,
+ 
