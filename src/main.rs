@@ -76,4 +76,4 @@ enum TimeInForce {
     NullVal,
 }
 
-impl From<&SbeTimeInFor
+impl From<&SbeTimeInForce> for TimeInForc
