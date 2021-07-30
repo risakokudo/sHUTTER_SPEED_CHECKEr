@@ -73,4 +73,7 @@ enum TimeInForce {
     FOK,
     GTD,
     #[default]
-    Null
+    NullVal,
+}
+
+impl From<&
