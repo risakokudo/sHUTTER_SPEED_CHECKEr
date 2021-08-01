@@ -78,4 +78,4 @@ enum TimeInForce {
 
 impl From<&SbeTimeInForce> for TimeInForce {
     #[inline]
-    fn from
+    fn from(v: &SbeTimeI
