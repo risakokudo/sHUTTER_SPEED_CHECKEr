@@ -79,3 +79,5 @@ enum TimeInForce {
 impl From<&SbeTimeInForce> for TimeInForce {
     #[inline]
     fn from(v: &SbeTimeInForce) -> Self {
+        match v {
+  
