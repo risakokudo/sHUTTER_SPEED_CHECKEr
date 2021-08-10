@@ -82,4 +82,4 @@ impl From<&SbeTimeInForce> for TimeInForce {
         match v {
             SbeTimeInForce::DAY => Self::DAY,
             SbeTimeInForce::GTC => Self::GTC,
-            SbeTimeInForce:
+            SbeTimeInForce::IOC => Self::IO
