@@ -83,4 +83,5 @@ impl From<&SbeTimeInForce> for TimeInForce {
             SbeTimeInForce::DAY => Self::DAY,
             SbeTimeInForce::GTC => Self::GTC,
             SbeTimeInForce::IOC => Self::IOC,
-            SbeTimeInForce::FOK => Self:
+            SbeTimeInForce::FOK => Self::FOK,
+      
