@@ -87,3 +87,7 @@ impl From<&SbeTimeInForce> for TimeInForce {
             SbeTimeInForce::GTD => Self::GTD,
             SbeTimeInForce::NullVal => Self::NullVal,
         }
+    }
+}
+
+impl 
