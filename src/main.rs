@@ -86,3 +86,4 @@ impl From<&SbeTimeInForce> for TimeInForce {
             SbeTimeInForce::FOK => Self::FOK,
             SbeTimeInForce::GTD => Self::GTD,
             SbeTimeInForce::NullVal => Self::NullVal,
+        }
