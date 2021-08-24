@@ -90,4 +90,4 @@ impl From<&SbeTimeInForce> for TimeInForce {
     }
 }
 
-impl From<&TimeInForce> for SbeT
+impl From<&TimeInForce> for SbeTimeInForce {
