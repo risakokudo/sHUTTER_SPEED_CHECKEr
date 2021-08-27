@@ -93,4 +93,5 @@ impl From<&SbeTimeInForce> for TimeInForce {
 impl From<&TimeInForce> for SbeTimeInForce {
     #[inline]
     fn from(v: &TimeInForce) -> Self {
-        mat
+        match v {
+        
