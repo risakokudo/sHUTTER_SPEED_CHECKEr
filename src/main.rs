@@ -96,4 +96,5 @@ impl From<&TimeInForce> for SbeTimeInForce {
         match v {
             TimeInForce::DAY => Self::DAY,
             TimeInForce::GTC => Self::GTC,
-            TimeInForce::IOC => Self::I
+            TimeInForce::IOC => Self::IOC,
+    
