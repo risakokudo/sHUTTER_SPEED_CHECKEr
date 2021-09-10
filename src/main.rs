@@ -99,4 +99,5 @@ impl From<&TimeInForce> for SbeTimeInForce {
             TimeInForce::IOC => Self::IOC,
             TimeInForce::FOK => Self::FOK,
             TimeInForce::GTD => Self::GTD,
-            TimeInForce::NullVal => Self::NullVa
+            TimeInForce::NullVal => Self::NullVal,
+        
