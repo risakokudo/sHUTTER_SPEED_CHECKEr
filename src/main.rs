@@ -100,4 +100,5 @@ impl From<&TimeInForce> for SbeTimeInForce {
             TimeInForce::FOK => Self::FOK,
             TimeInForce::GTD => Self::GTD,
             TimeInForce::NullVal => Self::NullVal,
-        
+        }
+    }
