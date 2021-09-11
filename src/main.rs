@@ -104,4 +104,4 @@ impl From<&TimeInForce> for SbeTimeInForce {
     }
 }
 
-#[derive(Debug, 
+#[derive(Debug, Default,
