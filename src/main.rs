@@ -102,3 +102,6 @@ impl From<&TimeInForce> for SbeTimeInForce {
             TimeInForce::NullVal => Self::NullVal,
         }
     }
+}
+
+#[derive(Debug, 
