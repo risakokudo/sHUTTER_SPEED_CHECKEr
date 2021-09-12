@@ -104,4 +104,5 @@ impl From<&TimeInForce> for SbeTimeInForce {
     }
 }
 
-#[derive(Debug, Default,
+#[derive(Debug, Default, PartialEq)]
+#[all
