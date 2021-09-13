@@ -105,4 +105,4 @@ impl From<&TimeInForce> for SbeTimeInForce {
 }
 
 #[derive(Debug, Default, PartialEq)]
-#[all
+#[allow(non_camel_cas
