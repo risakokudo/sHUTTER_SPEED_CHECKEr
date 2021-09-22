@@ -108,4 +108,5 @@ impl From<&TimeInForce> for SbeTimeInForce {
 #[allow(non_camel_case_types)]
 enum Strategy {
     SIMULATOR,
-    VENU
+    VENUE,
+    SWEEPER,
