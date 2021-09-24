@@ -110,3 +110,4 @@ enum Strategy {
     SIMULATOR,
     VENUE,
     SWEEPER,
+    LIMIT_SNIPER
