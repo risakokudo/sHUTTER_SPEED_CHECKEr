@@ -111,4 +111,5 @@ enum Strategy {
     VENUE,
     SWEEPER,
     LIMIT_SNIPER,
-    STOP_LO
+    STOP_LOSS,
+    TWAP,
