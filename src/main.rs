@@ -114,4 +114,5 @@ enum Strategy {
     STOP_LOSS,
     TWAP,
     VWAP,
-    #[defau
+    #[default]
+    
