@@ -113,3 +113,5 @@ enum Strategy {
     LIMIT_SNIPER,
     STOP_LOSS,
     TWAP,
+    VWAP,
+  
