@@ -115,4 +115,7 @@ enum Strategy {
     TWAP,
     VWAP,
     #[default]
-    
+    NullVal,
+}
+
+impl Fro
