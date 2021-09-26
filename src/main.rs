@@ -118,4 +118,4 @@ enum Strategy {
     NullVal,
 }
 
-impl Fro
+impl From<&SbeStr
