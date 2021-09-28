@@ -118,4 +118,5 @@ enum Strategy {
     NullVal,
 }
 
-impl From<&SbeStrategy> for Strat
+impl From<&SbeStrategy> for Strategy {
+    #[
