@@ -119,4 +119,5 @@ enum Strategy {
 }
 
 impl From<&SbeStrategy> for Strategy {
-    #[
+    #[inline]
+    fn fro
