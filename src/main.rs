@@ -120,4 +120,4 @@ enum Strategy {
 
 impl From<&SbeStrategy> for Strategy {
     #[inline]
-    fn from(v: &SbeStrate
+    fn from(v: &SbeStrategy) -> Self {
