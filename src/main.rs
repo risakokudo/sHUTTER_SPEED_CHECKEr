@@ -123,4 +123,5 @@ impl From<&SbeStrategy> for Strategy {
     fn from(v: &SbeStrategy) -> Self {
         match v {
             SbeStrategy::SIMULATOR => Self::SIMULATOR,
-            SbeStrategy::VENUE => Self::VE
+            SbeStrategy::VENUE => Self::VENUE,
+          
