@@ -124,4 +124,5 @@ impl From<&SbeStrategy> for Strategy {
         match v {
             SbeStrategy::SIMULATOR => Self::SIMULATOR,
             SbeStrategy::VENUE => Self::VENUE,
-            SbeStrategy::SWEEPER => Self::
+            SbeStrategy::SWEEPER => Self::SWEEPER,
+       
