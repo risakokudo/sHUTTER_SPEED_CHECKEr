@@ -127,4 +127,4 @@ impl From<&SbeStrategy> for Strategy {
             SbeStrategy::SWEEPER => Self::SWEEPER,
             SbeStrategy::LIMIT_SNIPER => Self::LIMIT_SNIPER,
             SbeStrategy::STOP_LOSS => Self::STOP_LOSS,
-            SbeStrat
+            SbeStrategy::TWAP
