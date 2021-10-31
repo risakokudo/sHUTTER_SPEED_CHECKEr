@@ -129,4 +129,5 @@ impl From<&SbeStrategy> for Strategy {
             SbeStrategy::STOP_LOSS => Self::STOP_LOSS,
             SbeStrategy::TWAP => Self::TWAP,
             SbeStrategy::VWAP => Self::VWAP,
-            SbeStrategy::NullVal => Self::N
+            SbeStrategy::NullVal => Self::NullVal,
+  
