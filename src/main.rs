@@ -134,4 +134,4 @@ impl From<&SbeStrategy> for Strategy {
     }
 }
 
-impl From
+impl From<&Strategy> fo
