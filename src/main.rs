@@ -130,4 +130,5 @@ impl From<&SbeStrategy> for Strategy {
             SbeStrategy::TWAP => Self::TWAP,
             SbeStrategy::VWAP => Self::VWAP,
             SbeStrategy::NullVal => Self::NullVal,
+        }
   
