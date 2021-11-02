@@ -134,4 +134,5 @@ impl From<&SbeStrategy> for Strategy {
     }
 }
 
-impl From<&Strategy> for SbeStrat
+impl From<&Strategy> for SbeStrategy {
+    #[inl
