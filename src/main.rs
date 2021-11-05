@@ -136,4 +136,4 @@ impl From<&SbeStrategy> for Strategy {
 
 impl From<&Strategy> for SbeStrategy {
     #[inline]
-    fn from(v: &Strat
+    fn from(v: &Strategy) -> Sel
