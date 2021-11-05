@@ -135,4 +135,5 @@ impl From<&SbeStrategy> for Strategy {
 }
 
 impl From<&Strategy> for SbeStrategy {
-    #[inl
+    #[inline]
+    
