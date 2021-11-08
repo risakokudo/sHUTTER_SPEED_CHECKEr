@@ -138,4 +138,4 @@ impl From<&Strategy> for SbeStrategy {
     #[inline]
     fn from(v: &Strategy) -> Self {
         match v {
-          
+            Strategy::SIM
