@@ -141,4 +141,5 @@ impl From<&Strategy> for SbeStrategy {
             Strategy::SIMULATOR => Self::SIMULATOR,
             Strategy::VENUE => Self::VENUE,
             Strategy::SWEEPER => Self::SWEEPER,
-            Strategy::LIMIT_SNIPER => Self::LI
+            Strategy::LIMIT_SNIPER => Self::LIMIT_SNIPER,
+      
