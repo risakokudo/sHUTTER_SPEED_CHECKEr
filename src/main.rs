@@ -144,4 +144,5 @@ impl From<&Strategy> for SbeStrategy {
             Strategy::LIMIT_SNIPER => Self::LIMIT_SNIPER,
             Strategy::STOP_LOSS => Self::STOP_LOSS,
             Strategy::TWAP => Self::TWAP,
-            Strategy::VWAP => Se
+            Strategy::VWAP => Self::VWAP,
+  
