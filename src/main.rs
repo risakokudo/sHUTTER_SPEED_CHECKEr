@@ -151,4 +151,5 @@ impl From<&Strategy> for SbeStrategy {
 }
 
 #[derive(Debug, Default, PartialEq)]
-struct Ord
+struct Order {
+  
