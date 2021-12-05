@@ -150,4 +150,5 @@ impl From<&Strategy> for SbeStrategy {
     }
 }
 
-#[derive(Debug, Default, Partial
+#[derive(Debug, Default, PartialEq)]
+struct Ord
