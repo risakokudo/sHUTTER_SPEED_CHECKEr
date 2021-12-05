@@ -150,4 +150,4 @@ impl From<&Strategy> for SbeStrategy {
     }
 }
 
-#[derive(Debug, Default
+#[derive(Debug, Default, Partial
