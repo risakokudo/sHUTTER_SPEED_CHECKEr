@@ -153,4 +153,4 @@ impl From<&Strategy> for SbeStrategy {
 #[derive(Debug, Default, PartialEq)]
 struct Order {
     cl_ord_id: u64,
-    c
+    cl_ord_li
