@@ -154,4 +154,5 @@ impl From<&Strategy> for SbeStrategy {
 struct Order {
     cl_ord_id: u64,
     cl_ord_link_id: u64,
-    instrument_i
+    instrument_id: u32,
+  
