@@ -155,4 +155,4 @@ struct Order {
     cl_ord_id: u64,
     cl_ord_link_id: u64,
     instrument_id: u32,
-  
+    target_comp_
