@@ -157,4 +157,5 @@ struct Order {
     instrument_id: u32,
     target_comp_id: u32,
     source_comp_id: u32,
-    s
+    side: OrderSide,
+  
