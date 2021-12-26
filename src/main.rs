@@ -158,4 +158,5 @@ struct Order {
     target_comp_id: u32,
     source_comp_id: u32,
     side: OrderSide,
-    order_type: OrderTy
+    order_type: OrderType,
+    price:
