@@ -160,4 +160,5 @@ struct Order {
     side: OrderSide,
     order_type: OrderType,
     price: f64,
-    orde
+    order_qty: f64,
+  
