@@ -162,4 +162,5 @@ struct Order {
     price: f64,
     order_qty: f64,
     time_in_force: TimeInForce,
-    transact_time
+    transact_time: u64,
+    
