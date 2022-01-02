@@ -163,4 +163,4 @@ struct Order {
     order_qty: f64,
     time_in_force: TimeInForce,
     transact_time: u64,
-    
+    effective_time: u64,
