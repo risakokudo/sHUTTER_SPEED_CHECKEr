@@ -161,4 +161,5 @@ struct Order {
     order_type: OrderType,
     price: f64,
     order_qty: f64,
-    time_in_force: TimeInFor
+    time_in_force: TimeInForce,
+    t
