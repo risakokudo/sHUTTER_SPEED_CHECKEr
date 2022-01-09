@@ -164,4 +164,5 @@ struct Order {
     time_in_force: TimeInForce,
     transact_time: u64,
     effective_time: u64,
-    expire_t
+    expire_time: u64,
+    tar
