@@ -165,4 +165,4 @@ struct Order {
     transact_time: u64,
     effective_time: u64,
     expire_time: u64,
-    tar
+    target_strategy: Strat
