@@ -165,4 +165,5 @@ struct Order {
     transact_time: u64,
     effective_time: u64,
     expire_time: u64,
-    target_strategy: Strat
+    target_strategy: Strategy,
+    so
