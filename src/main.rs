@@ -166,4 +166,4 @@ struct Order {
     effective_time: u64,
     expire_time: u64,
     target_strategy: Strategy,
-    so
+    source_st
