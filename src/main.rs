@@ -168,3 +168,5 @@ struct Order {
     target_strategy: Strategy,
     source_strategy: Strategy,
 }
+
+impl Or
