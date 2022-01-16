@@ -169,4 +169,5 @@ struct Order {
     source_strategy: Strategy,
 }
 
-impl Or
+impl Order {
+    fn
