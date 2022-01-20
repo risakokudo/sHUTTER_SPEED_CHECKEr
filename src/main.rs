@@ -170,4 +170,5 @@ struct Order {
 }
 
 impl Order {
-    fn
+    fn new() -> Self {
+    
