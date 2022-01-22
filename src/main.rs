@@ -171,4 +171,7 @@ struct Order {
 
 impl Order {
     fn new() -> Self {
-        Default::defaul
+        Default::default()
+    }
+
+ 
