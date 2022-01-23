@@ -174,4 +174,4 @@ impl Order {
         Default::default()
     }
 
-    fn with_cl_ord_id(mut se
+    fn with_cl_ord_id(mut self, cl_ord_id: u64
