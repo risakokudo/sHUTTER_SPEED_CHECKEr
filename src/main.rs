@@ -174,4 +174,5 @@ impl Order {
         Default::default()
     }
 
-    fn with_cl_ord_id(mut self, cl_ord_id: u64
+    fn with_cl_ord_id(mut self, cl_ord_id: u64) -> Self {
+ 
