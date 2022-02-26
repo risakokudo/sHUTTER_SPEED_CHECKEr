@@ -180,4 +180,5 @@ impl Order {
     }
 
     fn with_cl_ord_link_id(mut self, cl_ord_link_id: u64) -> Self {
-        self.cl_ord_link_id = cl_ord_l
+        self.cl_ord_link_id = cl_ord_link_id;
+  
