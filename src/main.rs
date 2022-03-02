@@ -183,3 +183,5 @@ impl Order {
         self.cl_ord_link_id = cl_ord_link_id;
         self
     }
+
+    fn with_instru
