@@ -184,4 +184,4 @@ impl Order {
         self
     }
 
-    fn with_instrument_id(mu
+    fn with_instrument_id(mut self, instrument
