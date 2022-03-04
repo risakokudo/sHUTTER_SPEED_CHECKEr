@@ -185,4 +185,4 @@ impl Order {
     }
 
     fn with_instrument_id(mut self, instrument_id: u32) -> Self {
-        self.instr
+        self.instrument_id = 
