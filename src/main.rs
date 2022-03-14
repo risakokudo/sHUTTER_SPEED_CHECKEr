@@ -189,4 +189,5 @@ impl Order {
         self
     }
 
-    fn with_target_comp_id(mut self, target_comp_id: u32) 
+    fn with_target_comp_id(mut self, target_comp_id: u32) -> Self {
+        se
