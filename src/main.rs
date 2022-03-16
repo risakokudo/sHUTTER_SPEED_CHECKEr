@@ -190,4 +190,4 @@ impl Order {
     }
 
     fn with_target_comp_id(mut self, target_comp_id: u32) -> Self {
-        self.target_comp_id = targ
+        self.target_comp_id = target_comp_id;
