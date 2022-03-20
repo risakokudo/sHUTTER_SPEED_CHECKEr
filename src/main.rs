@@ -194,4 +194,4 @@ impl Order {
         self
     }
 
-    fn with_source_comp_id(mut self, 
+    fn with_source_comp_id(mut self, source_comp_id: u32
