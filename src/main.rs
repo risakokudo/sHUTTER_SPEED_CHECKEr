@@ -195,4 +195,5 @@ impl Order {
     }
 
     fn with_source_comp_id(mut self, source_comp_id: u32) -> Self {
-        self.source_comp_id =
+        self.source_comp_id = source_comp_id;
+  
