@@ -199,4 +199,4 @@ impl Order {
         self
     }
 
-    fn with_side(m
+    fn with_side(mut self, side: Ord
