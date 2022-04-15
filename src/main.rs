@@ -205,4 +205,4 @@ impl Order {
     }
 
     fn with_order_type(mut self, order_type: OrderType) -> Self {
-        self.o
+        self.order_typ
