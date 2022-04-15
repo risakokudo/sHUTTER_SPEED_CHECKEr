@@ -204,4 +204,5 @@ impl Order {
         self
     }
 
-    fn with_order_type(mut self, order_type: OrderType) -> Self
+    fn with_order_type(mut self, order_type: OrderType) -> Self {
+        self.o
