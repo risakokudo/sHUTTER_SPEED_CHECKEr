@@ -210,4 +210,4 @@ impl Order {
     }
 
     fn with_price(mut self, price: f64) -> Self {
-        s
+        self.price = pr
