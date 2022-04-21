@@ -211,4 +211,4 @@ impl Order {
 
     fn with_price(mut self, price: f64) -> Self {
         self.price = price;
-   
+        s
