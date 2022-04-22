@@ -214,4 +214,4 @@ impl Order {
         self
     }
 
-    fn with_order
+    fn with_order_qty(m
