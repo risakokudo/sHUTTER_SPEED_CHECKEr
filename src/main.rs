@@ -215,4 +215,4 @@ impl Order {
     }
 
     fn with_order_qty(mut self, order_qty: f64) -> Self {
-        s
+        self.order_qty = 
