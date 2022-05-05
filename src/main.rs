@@ -219,4 +219,4 @@ impl Order {
         self
     }
 
-    fn with_ti
+    fn with_time_in_force(mut self,
