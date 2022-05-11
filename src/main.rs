@@ -220,4 +220,5 @@ impl Order {
     }
 
     fn with_time_in_force(mut self, time_in_force: TimeInForce) -> Self {
-        self.time_in_force = time_in_for
+        self.time_in_force = time_in_force;
+        se
