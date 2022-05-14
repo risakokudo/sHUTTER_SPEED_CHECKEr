@@ -223,3 +223,5 @@ impl Order {
         self.time_in_force = time_in_force;
         self
     }
+
+    fn with_t
