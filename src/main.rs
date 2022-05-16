@@ -224,4 +224,4 @@ impl Order {
         self
     }
 
-    fn with_transact_time(mut self, transact_
+    fn with_transact_time(mut self, transact_time: u64) -> Se
