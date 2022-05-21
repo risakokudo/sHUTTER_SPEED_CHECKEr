@@ -225,4 +225,4 @@ impl Order {
     }
 
     fn with_transact_time(mut self, transact_time: u64) -> Self {
-        self
+        self.transact_time =
