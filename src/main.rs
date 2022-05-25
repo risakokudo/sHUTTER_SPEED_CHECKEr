@@ -226,4 +226,7 @@ impl Order {
 
     fn with_transact_time(mut self, transact_time: u64) -> Self {
         self.transact_time = transact_time;
-        sel
+        self
+    }
+
+  
