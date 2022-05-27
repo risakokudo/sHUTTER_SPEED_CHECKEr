@@ -229,4 +229,4 @@ impl Order {
         self
     }
 
-    fn with_effective_time(mu
+    fn with_effective_time(mut self, effec
