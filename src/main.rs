@@ -230,4 +230,4 @@ impl Order {
     }
 
     fn with_effective_time(mut self, effective_time: u64) -> Self {
-        self.effe
+        self.effective_time = ef
