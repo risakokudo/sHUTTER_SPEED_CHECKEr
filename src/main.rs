@@ -229,4 +229,5 @@ impl Order {
         self
     }
 
-    fn with_effective_time(mut self, effective_time: u
+    fn with_effective_time(mut self, effective_time: u64) -> Self {
+ 
