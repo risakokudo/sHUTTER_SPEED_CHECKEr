@@ -234,4 +234,4 @@ impl Order {
         self
     }
 
-    fn with_expire_time(mut se
+    fn with_expire_time(mut self, expire_tim
