@@ -234,4 +234,4 @@ impl Order {
         self
     }
 
-  
+    fn with_ex
