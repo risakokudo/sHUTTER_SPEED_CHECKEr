@@ -239,4 +239,4 @@ impl Order {
         self
     }
 
-    fn with_target_strategy(mut self, target_strategy: S
+    fn with_target_strategy(mut self, target_strategy: Strategy
