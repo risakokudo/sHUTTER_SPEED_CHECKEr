@@ -240,4 +240,4 @@ impl Order {
     }
 
     fn with_target_strategy(mut self, target_strategy: Strategy) -> Self {
-        self.t
+        self.target_stra
