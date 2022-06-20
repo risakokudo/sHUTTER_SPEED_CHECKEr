@@ -243,3 +243,5 @@ impl Order {
         self.target_strategy = target_strategy;
         self
     }
+
+    fn with_
