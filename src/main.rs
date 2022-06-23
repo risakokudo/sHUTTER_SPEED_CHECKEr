@@ -245,4 +245,4 @@ impl Order {
     }
 
     fn with_source_strategy(mut self, source_strategy: Strategy) -> Self {
-        self.source_strategy = sour
+        self.source_strategy = source_strateg
