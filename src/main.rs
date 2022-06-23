@@ -245,3 +245,4 @@ impl Order {
     }
 
     fn with_source_strategy(mut self, source_strategy: Strategy) -> Self {
+        self.so
