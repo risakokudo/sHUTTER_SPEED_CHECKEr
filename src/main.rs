@@ -251,4 +251,4 @@ impl Order {
 }
 
 #[derive(Debug)]
-e
+enum EncodeE
