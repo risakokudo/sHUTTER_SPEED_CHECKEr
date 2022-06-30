@@ -253,4 +253,4 @@ impl Order {
 #[derive(Debug)]
 enum EncodeError {}
 
-#
+#[derive(Debug)]
