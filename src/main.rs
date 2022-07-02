@@ -254,4 +254,6 @@ impl Order {
 enum EncodeError {}
 
 #[derive(Debug)]
-enum DecodeErro
+enum DecodeError {}
+
+trait Enc
