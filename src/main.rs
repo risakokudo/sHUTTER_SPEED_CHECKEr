@@ -254,3 +254,4 @@ impl Order {
 enum EncodeError {}
 
 #[derive(Debug)]
+enum DecodeErro
