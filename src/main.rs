@@ -256,4 +256,5 @@ enum EncodeError {}
 #[derive(Debug)]
 enum DecodeError {}
 
-trait Encode<'a, T: Encoder<'
+trait Encode<'a, T: Encoder<'a>> {
+    fn 
