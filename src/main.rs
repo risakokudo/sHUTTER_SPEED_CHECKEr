@@ -257,4 +257,4 @@ enum EncodeError {}
 enum DecodeError {}
 
 trait Encode<'a, T: Encoder<'a>> {
-    fn 
+    fn encode(&self, encod
