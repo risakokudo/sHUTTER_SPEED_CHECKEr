@@ -259,3 +259,5 @@ enum DecodeError {}
 trait Encode<'a, T: Encoder<'a>> {
     fn encode(&self, encoder: &mut T) -> Result<usize, EncodeError>;
 }
+
+impl<'a> En
