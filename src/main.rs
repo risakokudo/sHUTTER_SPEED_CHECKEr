@@ -261,4 +261,4 @@ trait Encode<'a, T: Encoder<'a>> {
 }
 
 impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
-    
+    fn encode(&
