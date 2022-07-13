@@ -261,4 +261,4 @@ trait Encode<'a, T: Encoder<'a>> {
 }
 
 impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
-    fn encode(&self, encoder: &mut NewOrderSingleEncoder<'a>) -> Result<us
+    fn encode(&self, encoder: &mut NewOrderSingleEncoder<'a>) -> Result<usize, EncodeE
