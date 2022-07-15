@@ -262,4 +262,4 @@ trait Encode<'a, T: Encoder<'a>> {
 
 impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
     fn encode(&self, encoder: &mut NewOrderSingleEncoder<'a>) -> Result<usize, EncodeError> {
-        encoder.cl_ord_id(se
+        encoder.cl_ord_id(self.cl_ord_
