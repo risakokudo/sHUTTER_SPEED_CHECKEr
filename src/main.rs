@@ -269,4 +269,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.source_comp_id(self.source_comp_id);
 
         encoder.side(SbeOrderSide::from(&self.side));
-        encoder.order_type(SbeOrderType::from(
+        encoder.order_type(SbeOrderType::from(&self.order
