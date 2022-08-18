@@ -273,4 +273,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
 
         encoder.price(self.price);
         encoder.order_qty(self.order_qty);
-    
+        encode
