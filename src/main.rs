@@ -272,4 +272,5 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.order_type(SbeOrderType::from(&self.order_type));
 
         encoder.price(self.price);
-        encoder.order_qty(self.ord
+        encoder.order_qty(self.order_qty);
+    
