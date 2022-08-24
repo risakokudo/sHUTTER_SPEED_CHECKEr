@@ -273,4 +273,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
 
         encoder.price(self.price);
         encoder.order_qty(self.order_qty);
-        encoder.time_in_force(SbeTimeInForce::from
+        encoder.time_in_force(SbeTimeInForce::from(&self.time_i
