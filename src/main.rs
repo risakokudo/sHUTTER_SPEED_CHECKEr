@@ -276,4 +276,5 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.time_in_force(SbeTimeInForce::from(&self.time_in_force));
         encoder.transact_time(self.transact_time);
         encoder.effective_time(self.effective_time);
-        encoder.expire_time(self.expire
+        encoder.expire_time(self.expire_time);
+ 
