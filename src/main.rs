@@ -277,4 +277,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.transact_time(self.transact_time);
         encoder.effective_time(self.effective_time);
         encoder.expire_time(self.expire_time);
-        encoder.target_strategy(
+        encoder.target_strategy(SbeStrategy
