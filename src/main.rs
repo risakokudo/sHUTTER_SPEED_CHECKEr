@@ -278,4 +278,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.effective_time(self.effective_time);
         encoder.expire_time(self.expire_time);
         encoder.target_strategy(SbeStrategy::from(&self.target_strategy));
- 
+        encoder.s
