@@ -280,4 +280,6 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         encoder.target_strategy(SbeStrategy::from(&self.target_strategy));
         encoder.source_strategy(SbeStrategy::from(&self.source_strategy));
 
-        Ok(encoder.encoded_len
+        Ok(encoder.encoded_length())
+    }
+}
