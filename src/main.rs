@@ -284,4 +284,5 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
     }
 }
 
-trait Decode<'a, T: Decoder<
+trait Decode<'a, T: Decoder<'a>> {
+    
