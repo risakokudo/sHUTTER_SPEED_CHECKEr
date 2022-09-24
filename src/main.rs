@@ -283,3 +283,5 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
         Ok(encoder.encoded_length())
     }
 }
+
+trait Decode<'a, T: 
