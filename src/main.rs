@@ -285,4 +285,4 @@ impl<'a> Encode<'a, NewOrderSingleEncoder<'a>> for Order {
 }
 
 trait Decode<'a, T: Decoder<'a>> {
-    fn decode(&mut self, de
+    fn decode(&mut self, decoder: &mut T
