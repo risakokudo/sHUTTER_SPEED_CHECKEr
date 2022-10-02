@@ -289,3 +289,4 @@ trait Decode<'a, T: Decoder<'a>> {
 }
 
 impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
+    fn decode(&
