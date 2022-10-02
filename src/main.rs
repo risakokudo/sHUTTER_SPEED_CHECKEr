@@ -288,4 +288,4 @@ trait Decode<'a, T: Decoder<'a>> {
     fn decode(&mut self, decoder: &mut T) -> Result<&Self, DecodeError>;
 }
 
-impl<'a> Decode<'a, NewOrderSingleDecoder<
+impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
