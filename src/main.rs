@@ -292,3 +292,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
     fn decode(&mut self, decoder: &mut NewOrderSingleDecoder<'a>) -> Result<&Self, DecodeError> {
         self.cl_ord_id = decoder.cl_ord_id();
         self.cl_ord_link_id = decoder.cl_ord_link_id();
+        self.ins
