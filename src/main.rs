@@ -293,4 +293,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.cl_ord_id = decoder.cl_ord_id();
         self.cl_ord_link_id = decoder.cl_ord_link_id();
         self.instrument_id = decoder.instrument_id();
-        self.tar
+        self.target_comp_id
