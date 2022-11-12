@@ -295,4 +295,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.instrument_id = decoder.instrument_id();
         self.target_comp_id = decoder.target_comp_id();
         self.source_comp_id = decoder.source_comp_id();
-        self.side = O
+        self.side = OrderSide::from
