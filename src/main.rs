@@ -297,4 +297,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.source_comp_id = decoder.source_comp_id();
         self.side = OrderSide::from(&decoder.side());
         self.order_type = OrderType::from(&decoder.order_type());
-        self
+        self.price = deco
