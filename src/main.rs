@@ -298,4 +298,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.side = OrderSide::from(&decoder.side());
         self.order_type = OrderType::from(&decoder.order_type());
         self.price = decoder.price();
-        self.order_qty =
+        self.order_qty = decoder.orde
