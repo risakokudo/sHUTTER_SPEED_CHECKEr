@@ -299,4 +299,5 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.order_type = OrderType::from(&decoder.order_type());
         self.price = decoder.price();
         self.order_qty = decoder.order_qty();
-        self.time_in_force = TimeInForce::from(&decoder.time_in_forc
+        self.time_in_force = TimeInForce::from(&decoder.time_in_force());
+        self.tr
