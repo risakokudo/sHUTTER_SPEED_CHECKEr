@@ -302,4 +302,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.time_in_force = TimeInForce::from(&decoder.time_in_force());
         self.transact_time = decoder.transact_time();
         self.effective_time = decoder.effective_time();
-        self.expire_time = decode
+        self.expire_time = decoder.expire_tim
