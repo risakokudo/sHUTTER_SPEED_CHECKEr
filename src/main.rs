@@ -303,4 +303,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.transact_time = decoder.transact_time();
         self.effective_time = decoder.effective_time();
         self.expire_time = decoder.expire_time();
-        self.target_strategy = Strate
+        self.target_strategy = Strategy::fro
