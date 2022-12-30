@@ -307,4 +307,7 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
         self.source_strategy = Strategy::from(&decoder.source_strategy());
 
         Ok(self)
-  
+    }
+}
+
+fn ma
