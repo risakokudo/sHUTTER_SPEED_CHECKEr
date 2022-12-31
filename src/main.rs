@@ -310,4 +310,5 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
     }
 }
 
-fn ma
+fn main() {
+    let o
