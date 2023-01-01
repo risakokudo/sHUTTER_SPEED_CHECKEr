@@ -311,4 +311,4 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
 }
 
 fn main() {
-    let o
+    let order = Order
