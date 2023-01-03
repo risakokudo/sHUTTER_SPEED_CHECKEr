@@ -311,4 +311,5 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
 }
 
 fn main() {
-    let order = Order
+    let order = Order::new()
+   
