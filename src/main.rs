@@ -312,4 +312,5 @@ impl<'a> Decode<'a, NewOrderSingleDecoder<'a>> for Order {
 
 fn main() {
     let order = Order::new()
-        .with_cl_ord_i
+        .with_cl_ord_id(1)
+       
