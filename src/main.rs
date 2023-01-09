@@ -314,4 +314,5 @@ fn main() {
     let order = Order::new()
         .with_cl_ord_id(1)
         .with_cl_ord_link_id(0)
-        .with_instrument_id(
+        .with_instrument_id(100)
+        .with_t
