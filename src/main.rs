@@ -315,4 +315,4 @@ fn main() {
         .with_cl_ord_id(1)
         .with_cl_ord_link_id(0)
         .with_instrument_id(100)
-        .with_t
+        .with_target_comp_id(12)
