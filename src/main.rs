@@ -316,4 +316,5 @@ fn main() {
         .with_cl_ord_link_id(0)
         .with_instrument_id(100)
         .with_target_comp_id(12)
-        .with_source_comp
+        .with_source_comp_id(13)
+   
