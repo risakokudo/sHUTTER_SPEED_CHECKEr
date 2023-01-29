@@ -318,4 +318,4 @@ fn main() {
         .with_target_comp_id(12)
         .with_source_comp_id(13)
         .with_side(OrderSide::BUY)
-        .with_order_t
+        .with_order_type(Order
