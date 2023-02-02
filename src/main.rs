@@ -319,4 +319,5 @@ fn main() {
         .with_source_comp_id(13)
         .with_side(OrderSide::BUY)
         .with_order_type(OrderType::MARKET)
-        .with_price(0
+        .with_price(0.6534)
+        
