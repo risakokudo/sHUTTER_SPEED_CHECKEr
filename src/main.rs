@@ -320,4 +320,5 @@ fn main() {
         .with_side(OrderSide::BUY)
         .with_order_type(OrderType::MARKET)
         .with_price(0.6534)
-        .with_order_qty
+        .with_order_qty(1000000.0)
+    
