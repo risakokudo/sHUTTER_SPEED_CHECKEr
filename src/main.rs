@@ -321,4 +321,4 @@ fn main() {
         .with_order_type(OrderType::MARKET)
         .with_price(0.6534)
         .with_order_qty(1000000.0)
-    
+        .with_ti
