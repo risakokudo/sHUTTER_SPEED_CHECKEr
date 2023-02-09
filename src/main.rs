@@ -322,4 +322,4 @@ fn main() {
         .with_price(0.6534)
         .with_order_qty(1000000.0)
         .with_time_in_force(TimeInForce::DAY)
-        .w
+        .with_transact_ti
