@@ -323,4 +323,4 @@ fn main() {
         .with_order_qty(1000000.0)
         .with_time_in_force(TimeInForce::DAY)
         .with_transact_time(123456789)
-        .with_e
+        .with_effective_t
