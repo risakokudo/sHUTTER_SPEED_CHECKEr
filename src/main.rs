@@ -324,4 +324,5 @@ fn main() {
         .with_time_in_force(TimeInForce::DAY)
         .with_transact_time(123456789)
         .with_effective_time(12345565)
-        .with_expire_time(1
+        .with_expire_time(12345565)
+    
