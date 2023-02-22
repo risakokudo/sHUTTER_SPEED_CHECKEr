@@ -328,4 +328,6 @@ fn main() {
         .with_target_strategy(Strategy::VENUE)
         .with_source_strategy(Strategy::SIMULATOR);
 
-    println!("Original order
+    println!("Original order: {:?}", order);
+
+ 
