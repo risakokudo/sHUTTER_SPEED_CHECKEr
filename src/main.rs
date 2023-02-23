@@ -330,4 +330,4 @@ fn main() {
 
     println!("Original order: {:?}", order);
 
- 
+    let mut buf 
