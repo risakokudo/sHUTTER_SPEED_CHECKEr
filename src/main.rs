@@ -331,3 +331,5 @@ fn main() {
     println!("Original order: {:?}", order);
 
     let mut buf = [0_u8; 1024];
+    {
+        l
