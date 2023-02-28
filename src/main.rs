@@ -332,4 +332,4 @@ fn main() {
 
     let mut buf = [0_u8; 1024];
     {
-        let write_buf = Wr
+        let write_buf = WriteBuf::new(
