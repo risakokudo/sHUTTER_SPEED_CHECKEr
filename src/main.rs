@@ -334,4 +334,4 @@ fn main() {
     {
         let write_buf = WriteBuf::new(&mut buf);
 
-        let mut encoder = NewOrderSingleE
+        let mut encoder = NewOrderSingleEncoder::defaul
