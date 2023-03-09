@@ -335,4 +335,4 @@ fn main() {
         let write_buf = WriteBuf::new(&mut buf);
 
         let mut encoder = NewOrderSingleEncoder::default().wrap(write_buf, 0);
-        let encoded_s
+        let encoded_size = or
