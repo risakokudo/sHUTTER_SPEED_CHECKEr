@@ -337,4 +337,4 @@ fn main() {
         let mut encoder = NewOrderSingleEncoder::default().wrap(write_buf, 0);
         let encoded_size = order.encode(&mut encoder).unwrap();
 
-        println!("Encoded ord
+        println!("Encoded order size: {}"
