@@ -339,4 +339,4 @@ fn main() {
 
         println!("Encoded order size: {}", encoded_size);
     }
-    le
+    let read_buf
