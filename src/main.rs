@@ -339,4 +339,6 @@ fn main() {
 
         println!("Encoded order size: {}", encoded_size);
     }
-    let read_buf = ReadBuf::new
+    let read_buf = ReadBuf::new(&buf);
+
+   
