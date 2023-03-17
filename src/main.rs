@@ -341,4 +341,5 @@ fn main() {
     }
     let read_buf = ReadBuf::new(&buf);
 
-    let mut decoder
+    let mut decoder =
+       
