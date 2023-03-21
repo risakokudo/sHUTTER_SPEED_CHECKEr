@@ -342,4 +342,4 @@ fn main() {
     let read_buf = ReadBuf::new(&buf);
 
     let mut decoder =
-        NewOrderSingleDecoder::default().wrap(read_buf, 0, SBE_B
+        NewOrderSingleDecoder::default().wrap(read_buf, 0, SBE_BLOCK_LENGTH, SB
