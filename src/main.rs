@@ -343,4 +343,4 @@ fn main() {
 
     let mut decoder =
         NewOrderSingleDecoder::default().wrap(read_buf, 0, SBE_BLOCK_LENGTH, SBE_SCHEMA_VERSION);
-    le
+    let mut new_order 
