@@ -344,4 +344,5 @@ fn main() {
     let mut decoder =
         NewOrderSingleDecoder::default().wrap(read_buf, 0, SBE_BLOCK_LENGTH, SBE_SCHEMA_VERSION);
     let mut new_order = Order::new();
-    let decoded_order = new_order.decode(&mut decoder).unwrap()
+    let decoded_order = new_order.decode(&mut decoder).unwrap();
+    printl
