@@ -345,4 +345,4 @@ fn main() {
         NewOrderSingleDecoder::default().wrap(read_buf, 0, SBE_BLOCK_LENGTH, SBE_SCHEMA_VERSION);
     let mut new_order = Order::new();
     let decoded_order = new_order.decode(&mut decoder).unwrap();
-    println!("Decoded o
+    println!("Decoded order: {:?}", de
