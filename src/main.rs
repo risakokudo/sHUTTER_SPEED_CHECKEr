@@ -346,3 +346,5 @@ fn main() {
     let mut new_order = Order::new();
     let decoded_order = new_order.decode(&mut decoder).unwrap();
     println!("Decoded order: {:?}", decoded_order);
+
+    assert_
