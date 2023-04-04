@@ -347,4 +347,5 @@ fn main() {
     let decoded_order = new_order.decode(&mut decoder).unwrap();
     println!("Decoded order: {:?}", decoded_order);
 
-    assert_eq!(order,
+    assert_eq!(order, *decoded_order)
+}
